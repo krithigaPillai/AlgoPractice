@@ -1,4 +1,5 @@
-import java.util.Map;
+package com.kri.algo;
+
 public class MostFreq {
 
 	public static void main(String[] args) {

@@ -1,3 +1,4 @@
+package com.kri.algo;
 /**
  * 
  */
@@ -24,6 +25,7 @@ public class InsertionSort {
 			a[i] = newInput.nextInt();
 		}
         insertionSort(a, n);
+        newInput.close();
 	}
 	public static void insertionSort(int[] a, int n)
 	{
